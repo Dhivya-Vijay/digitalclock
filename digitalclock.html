@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIGITAL CLOCK</title>
+    <style>
+body {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.clock-container {
+    display: none;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 550px;
+    border: 1px solid black;
+    width: 250px;
+    background-color:palevioletred;
+    align-items: center;
+    height: 70px;
+    font-size: 46px;
+}
+
+    </style>
+</head>
+<body>
+   
+   <button id="formatButton">Select Clock Format</button>
+
+    <div id="clockContainer" class="clock-container">
+        <div id="clockDisplay"></div>
+    </div>
+
+
+    <script src="../js/digitalclock.js"></script>
+    
+</body>
+</html>
